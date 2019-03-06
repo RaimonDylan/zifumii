@@ -36,13 +36,30 @@
     - Interface de création de personnage avec choix des statistiques / Arme
     
   - **Conception détaillée**
-    - 
+    - Meh
+    
   - Règles de codage
+    - Choisir des noms d'identificateurs lisibles ( exemple : HorizontalAlignment pour l'alignement horizontal )
+    - Priviléer la lisibilité des raisons de concision ( canScrollHorinzontally est meilleur que scrollableMeh )
+    - Pas de traits d'union ou de soulignements, pas de numéros dans les noms de variables
+    - Pas d'utilisation d'abréviations GetWidth et non pas get gw
+    - Utilisation de noms sémantiques getLength() et non pas getInt()
+    
+    
   - Plan de test
+    - Une version de démo sera distribuée à des utilisateurs qui feront un feedback sur l'expérience de jeu ressentie.
+    
   - Code commenté
+    - tkt
   - Séance de relecture de code, lol
-  - Tests avec oracles
+    - ouais ouais tkt
+  - Tests avec oracles 
+    - Asset Unity testing tool 
+    
+    ![](http://ilkinulas.github.io/assets/testing_unity/editor_test_runner.png)
+    
   - Post-Mortem
+    - bientôt
   
   --- 
   
