@@ -35,3 +35,17 @@
 - Fournir une interface attrayante s’appuyant sur une évaluation UX/UI auprès des étudiants du campus
 - Architecture permettant de mettre de nouvelles « IA »
 - Etudier le mode de promotion et de commercialisation à (championnat, réseaux sociaux)
+
+
+
+---
+
+
+- 27-28/02: Présentation du projet
+- 7/03 Organisation du projet, méthode utilisées, Analyse de besoin, planning personnalisé 
+- 20/03-21/03 Spécification générale (UML et/ou Machination) et définition et maquettage de l’interface, cahier des tests fonctionnels.
+- 22/05 Architecture + Cahier des tests d’intégration+ critères de codage 
+- 23/05 Conception détaillée+ code+ tests unitaires Séance de relecture de code 
+- 29/05 Application terminée, Tests fonctionnels et recette
+- 16/06 Remise des livrables
+
