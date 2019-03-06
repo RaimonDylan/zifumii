@@ -19,9 +19,24 @@
 - Durando Adrian
 
 ## Planning 
-  - Spécification
-  - Conception générale
-  - Conception détaillée
+  - **Spécification**
+    - Le joueur crée son personage pour le combat, en choisissant ses statistiques personalisées ( DEFENSE / ATTACK / ESQUIVE ) avec un sliders.
+    - Le joueur ainsi que l'IA ont des points de vie
+    - Le Shi FOU MIIIE détermine les dégats du personnage.
+    - Le joueur choisi son arme pour le combat 
+    - Le joueur lance le combat contre un combattait préconfiguré par une IA
+    - Le joueur progresse selon une échelle de 1 à 10 caractarisée par le niveau de l'IA
+    - Si l'IA est battue, le joueur gagne et progresse en niveau
+    
+  - **Conception générale**
+    - Moteur de jeux Unity
+    - Le jeux vidéo se déroule dans une arène
+    - Jeux vidéo en 3D
+    - Vue de haut sur l'arène
+    - Interface de création de personnage avec choix des statistiques / Arme
+    
+  - **Conception détaillée**
+    - 
   - Règles de codage
   - Plan de test
   - Code commenté
