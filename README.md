@@ -45,20 +45,20 @@
     - Pas d'utilisation d'abréviations GetWidth et non pas get gw
     - Utilisation de noms sémantiques getLength() et non pas getInt()
     
-    
   - Plan de test
     - Une version de démo sera distribuée à des utilisateurs qui feront un feedback sur l'expérience de jeu ressentie.
     
   - Code commenté
-    - oui
-  - Séance de relecture de code
-    - Oui
+    - tkt
+  - Séance de relecture de code, lol
+    - ouais ouais tkt
   - Tests avec oracles 
     - Asset Unity testing tool 
+    
     ![](http://ilkinulas.github.io/assets/testing_unity/editor_test_runner.png)
     
   - Post-Mortem
-    - On fera le bilan quand on y sera 
+    - On verra quand on y sera
   
   --- 
   
@@ -69,7 +69,10 @@
 - 23/05 Conception détaillée+ code+ tests unitaires Séance de relecture de code 
 - 29/05 Application terminée, Tests fonctionnels et recette
 - 16/06 Remise des livrables
+
 ## Spécification avec ou sans modèle
+
+
 
 
 
