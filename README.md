@@ -1,16 +1,14 @@
 # zifumii
 
-TODO:
-
-# Réécrire et détailler le cahier des charges 
-# Organisation
+## Réécrire et détailler le cahier des charges 
+## Organisation
 
 - Raimon Dylan
 - Molinari David
 - Bigot Kevin
 - Durando Adrian
 
-# Planning 
+## Planning 
   - Spécification
   - Conception générale
   - Conception détaillée
@@ -20,4 +18,4 @@ TODO:
   - Séance de relecture de code, lol
   - Tests avec oracles
   - Post-Mortem
-# Spécification avec ou sans modèle
+## Spécification avec ou sans modèle
