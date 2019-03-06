@@ -50,16 +50,15 @@
     - Une version de démo sera distribuée à des utilisateurs qui feront un feedback sur l'expérience de jeu ressentie.
     
   - Code commenté
-    - tkt
-  - Séance de relecture de code, lol
-    - ouais ouais tkt
+    - oui
+  - Séance de relecture de code
+    - Oui
   - Tests avec oracles 
     - Asset Unity testing tool 
-    
     ![](http://ilkinulas.github.io/assets/testing_unity/editor_test_runner.png)
     
   - Post-Mortem
-    - On verra quand on y sera
+    - On fera le bilan quand on y sera 
   
   --- 
   
