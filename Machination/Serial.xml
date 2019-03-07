@@ -1,0 +1,53 @@
+<graph version="v4.3" name="1" author="" interval="1" timeMode="turn-based" distributionMode="fixed speed" speed="100" actions="1" dice="D6" skill="" strategy="" multiplayer="" width="1400" height="560" numberOfRuns="100" visibleRuns="25" colorCoding="0">
+  <connection type="Resource Connection" start="17" end="1" label="" position="0.5" color="Black" thickness="2"/>
+  <node symbol="Pool" x="256" y="134" color="Black" caption="Pilot" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <connection type="Resource Connection" start="1" end="9" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="9" end="28" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="9" end="27" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="27" end="20" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="21" end="17" label="" position="0.5" color="Black" thickness="2"/>
+  <node symbol="Pool" x="748" y="139" color="Black" caption="Final Mission" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="866" y="140" color="Black" caption="Credits" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="369" y="135" color="Black" caption="Result Screen" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <connection type="Resource Connection" start="35" end="7" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="7" end="8" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="29" end="29" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="30" end="35" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="20" end="18" label="" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="18" end="29" label="" position="0.5" color="Black" thickness="2">
+    <point x="136" y="293"/>
+    <point x="440" y="292"/>
+  </connection>
+  <connection type="Resource Connection" start="18" end="17" label="" position="0.5" color="Black" thickness="2">
+    <point x="80" y="192"/>
+    <point x="88" y="143"/>
+  </connection>
+  <node symbol="Pool" x="135" y="135" color="Black" caption="New Game" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="135" y="236" color="Black" caption="Main Menu (Load)" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <connection type="Resource Connection" start="29" end="30" label="" position="0.5" color="Black" thickness="2"/>
+  <node symbol="Pool" x="260" y="237" color="Black" caption="Preview/Outro" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="133" y="45" color="Black" caption="Main Menu (Initial)" thickness="2" captionPos="0.25" activationMode="passive" pullMode="push any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <connection type="Resource Connection" start="23" end="21" label="" position="0.5" color="Black" thickness="2"/>
+  <node symbol="Pool" x="40" y="46" color="Black" caption="Run" thickness="2" captionPos="0.25" activationMode="onstart" pullMode="push any" actions="1" resourceColor="Black" startingResources="1" capacity="-1"/>
+  <connection type="Resource Connection" start="21" end="26" label="" position="0.5" color="Black" thickness="2">
+    <point x="57" y="138"/>
+    <point x="32" y="253"/>
+  </connection>
+  <connection type="Resource Connection" start="18" end="26" label="" position="0.5" color="Black" thickness="2">
+    <point x="65" y="240"/>
+  </connection>
+  <node symbol="Pool" x="40" y="335" color="Black" caption="Close" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="373" y="238" color="Black" caption="S/Quit" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="480" y="135" color="Black" caption="Continue" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="499" y="245" color="Black" caption="Load" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="607" y="242" color="Black" caption="Review/Opening" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Pool" x="640" y="40" color="Black" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <connection type="Resource Connection" start="34" end="31" label="1" position="0.5" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="28" end="35" label="1" position="0.5" color="Black" thickness="2"/>
+  <node symbol="Pool" x="520" y="40" color="Black" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="push any" actions="1" resourceColor="Black" startingResources="12" capacity="-1"/>
+  <node symbol="Pool" x="602" y="137" color="Black" caption="Next Mission" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <connection type="Resource Connection" start="35" end="9" label="" position="0.5" color="Black" thickness="2">
+    <point x="480" y="63"/>
+  </connection>
+  <connection type="State Connection" start="35" end="34" label="*" position="0.5" color="Black" thickness="2"/>
+</graph>
