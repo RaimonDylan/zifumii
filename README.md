@@ -1,4 +1,5 @@
 # zifumii
+![](./photos/zyfumi.jpeg)
 
 ## Réécrire et détailler le cahier des charges 
 
@@ -38,6 +39,8 @@
     - Interface de création de personnage
     
   - **Conception détaillée**
+    - ![](./photos/conception.jpeg)
+    - PDF A REVOIR
     - [PDF Conception](Zyfumi.pdf)
     
   - Règles de codage
@@ -69,7 +72,7 @@
 
 A revoir
 
-![](./use.png)
+ - ![](./photos/experience.jpg)
 
 
 
