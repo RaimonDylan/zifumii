@@ -42,6 +42,24 @@ Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage c
 
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/Diagramme%20de%20classe.PNG)
 
+* GameManager 
+```Est la classe qui permet de gérer la partie, comme les lancements de partie, les choix de personnage, d'inventaire etc```
+* Player
+```Est la classe Personnage qui permet de gérer le ou les personages, les différents choix de caractéristiques etc```
+* Skill
+```Est la classe qui permer de gérer les différents Talents du personnage, les attaques, les boucliers, les saisies, etc ```
+* Experience
+```Est la classe qui s'occupe de la gestion de l'expérience acquise du personnage```
+
+* MixedCOntroller
+```Est la classe qui permet de gérer la bande sonore du jeu```
+
+* Tower
+```Est la classe de level design permettant de gérer la progression du joueur```
+
+
+
+
 ## Spécification du code, règles de codage
 * Les commentaires doivent être clairs et concis
 * Les identificateurs doivent être lisibles et licites pour des raisons de concisions, *par exemple, isLimited est mieux que limit* 
