@@ -83,17 +83,18 @@ Exemple de variables
 
 ```c#
 
-// Augmente de 1 la valeur de stage Now
+    // Augmente de 1 la valeur de stage Now
     // Sauvegarde de l'étage si on passe un boss
     public void stageUp()
     {
-        if(stageNow%5 == 0)
+        if(stageNow%5 == 0) // Si on a battu le boss
         {
             saveStage = stageNow;
-            //sauvegarde des données 
+            // Sauvegarde des données 
             PlayerPrefs.SetInt("saveStage", saveStage);
             PlayerPrefs.Save();
         }
+        // Incrémentation de l'étage si on est pas à l'étage maximum
         stageNow = (stageNow + 1 <= stageMax) ? stageNow + 1 : stageMax;
     }
 ```
