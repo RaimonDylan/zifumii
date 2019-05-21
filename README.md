@@ -64,6 +64,7 @@ Après correction =>
 
 ## Suivi du déroulement de projet
 * Taiga du projet 
+* la collaboration entre les membres de l’équipe pour développer les initiatives, récolter plus d’idées
 ### Détails sprint 0
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/Sprint0.PNG)
 ### Détails sprint 1
