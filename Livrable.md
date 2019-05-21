@@ -8,11 +8,13 @@ Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage c
 * le bouclier
 
 ### Conception détaillée
-* Schématisation sous forme de maquettes de ce qui est attendu et la représentation faite pour Zyfumi
+* Schématisation sous forme de maquettes de ce qui est attendu et la représentation faite pour Zyfumi :
+
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/conception.jpeg)
 
 
 * Diagramme des cas d'utilisations non exhaustif : 
+
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/use.png)
 
 ### Spécification des besoins
