@@ -44,6 +44,7 @@
     - [PDF Conception](Zyfumi.pdf)
     
   - Règles de codage
+    - Qualité des commentaires
     - Choisir des noms d'identificateurs lisibles ( exemple : HorizontalAlignment pour l'alignement horizontal )
     - Priviléer la lisibilité des raisons de concision ( canScrollHorinzontally est meilleur que scrollableMeh )
     - Pas de traits d'union ou de soulignements, pas de numéros dans les noms de variables
