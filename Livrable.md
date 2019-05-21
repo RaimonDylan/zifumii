@@ -40,7 +40,17 @@ Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage c
 * Utilisation obligatoire de noms sémantiques : *getLength() et non getInt* pour récupérer une taille en int
 
 ## Compte rendu d'éxecution de test et fiches d'anomalies
-* TODO
+
+fonction settingsBoss() => 
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SUCCESS.gif)
+
+fonction resetLevel() => 
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/ERR.gif)
+
+
+Après correction => 
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SUCCESS.gif)
+
 
 ## Suivi du déroulement de projet
 * TODO
