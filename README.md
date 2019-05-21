@@ -54,4 +54,10 @@ Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage c
 * TODO
 
 ## Suivi du déroulement de projet
-* TODO
+* Taiga du projet 
+### Détails sprint 0
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/Sprint0.PNG)
+### Détails sprint 1
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/Sprint1.PNG)
+### versionning du projet sur Unity
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/collab.PNG)
