@@ -67,7 +67,7 @@ Exemple de variables
     private int xpBase = 100; // Expérience de base d'un joueur
     private int xpIncr = 50; // Icrémentation fixe
     private Player myPlayer; // Le joueur lié à l'expérience 
-    private SimpleHealthBar expBar; // La bare de progression implémentée sur le scène
+    private SimpleHealthBar expBar; // La barre de vie implémentée sur la scène
 
     public float Experience { get => experience; set => experience = value; }
     public int Niveau { get => niveau; set => niveau = value; }
@@ -75,7 +75,27 @@ Exemple de variables
     public int XpIncr { get => xpIncr; set => xpIncr = value; }
     public Player MyPlayer { get => myPlayer; set => myPlayer = value; }
     public SimpleHealthBar ExpBar { get => expBar; set => expBar = value; }
+    
+    
+    
 
+```
+
+```c#
+
+// Augmente de 1 la valeur de stage Now
+    // Sauvegarde de l'étage si on passe un boss
+    public void stageUp()
+    {
+        if(stageNow%5 == 0)
+        {
+            saveStage = stageNow;
+            //sauvegarde des données 
+            PlayerPrefs.SetInt("saveStage", saveStage);
+            PlayerPrefs.Save();
+        }
+        stageNow = (stageNow + 1 <= stageMax) ? stageNow + 1 : stageMax;
+    }
 ```
 
 ## Spécification du code, règles de codage
