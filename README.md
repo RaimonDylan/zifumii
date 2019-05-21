@@ -1,5 +1,14 @@
 # Livrable du projet Zyfumi
 
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SHIFU1.jpg)
+
+
+
+--- 
+
+
+
+
 ### Introduction
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SHIFU3.jpg)
 Zyfumi est un jeu vidéo en deux dimensions réalisé sur UnityEngine dont le bût est de jouer au Shi-fu-mu d'une façon différente.
