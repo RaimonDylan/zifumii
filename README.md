@@ -14,9 +14,9 @@
 Zyfumi est un jeu vidéo en deux dimensions réalisé sur UnityEngine dont le bût est de jouer au Shi-fu-mi d'une façon différente.
 Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage combattant un autre personnage *Intelligence Artifitielle* et possède 3 variantes de sorts disponibles : 
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SHIFU2.jpg)
-* L'épée
-* l'arc
-* le bouclier
+* Épée
+* Saisir
+* Bouclier
 
 ### Conception détaillée
 * Schématisation sous forme de maquettes de ce qui est attendu et la représentation faite pour Zyfumi :
