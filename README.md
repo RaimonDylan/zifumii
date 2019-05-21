@@ -1,4 +1,4 @@
-# Livrable du projet Zyfumi
+# Documentation du projet Zyfumi
 
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SHIFU1.jpg)
 
