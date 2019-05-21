@@ -72,8 +72,11 @@
 ## Diagram des "Cas d'utilisations"
 
 A revoir
-
  - ![](./photos/experience.jpg)
+ 
+ 
+ ## Diagramme de classes
+ ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/Diagramme%20de%20classe.PNG)
 
 
 
