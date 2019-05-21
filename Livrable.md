@@ -7,6 +7,14 @@ Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage c
 * l'arc
 * le bouclier
 
+### Conception détaillée
+* Schématisation sous forme de maquettes de ce qui est attendu et la représentation faite pour Zyfumi
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/conception.jpeg)
+
+
+* Diagramme des cas d'utilisations non exhaustif : 
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/use.png)
+
 ### Spécification des besoins
 * Zyfui doit être basé sur le système du [Shi-fu-mi](https://www.google.com) *Pierre-papier-ciseaux est un jeu effectué avec les mains et opposant un ou plusieurs joueurs.*
 * Zyfumi est un jeu au tour par tour
