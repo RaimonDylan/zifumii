@@ -65,7 +65,7 @@ Exemple de variables
     private float experience = 0; // Expérience initialisée à 0 de base
     private int niveau = 1; // Niveau initialisé à 1 de base
     private int xpBase = 100; // Expérience de base d'un joueur
-    private int xpIncr = 50; // Icrémentation fixe
+    private int xpIncr = 50; // Incrémentation fixe
     private Player myPlayer; // Le joueur lié à l'expérience 
     private SimpleHealthBar expBar; // La barre de vie implémentée sur la scène
 
