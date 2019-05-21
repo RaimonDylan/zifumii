@@ -11,10 +11,10 @@
 
 ### Introduction
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SHIFU3.jpg)
-Zyfumi est un jeu vidéo en deux dimensions réalisé sur UnityEngine dont le bût est de jouer au Shi-fu-mu d'une façon différente.
+Zyfumi est un jeu vidéo en deux dimensions réalisé sur UnityEngine dont le bût est de jouer au Shi-fu-mi d'une façon différente.
 Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage combattant un autre personnage *Intelligence Artifitielle* et possède 3 variantes de sorts disponibles : 
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SHIFU2.jpg)
-* L'épé
+* L'épée
 * l'arc
 * le bouclier
 
@@ -24,12 +24,12 @@ Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage c
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/conception.jpeg)
 
 
-* Diagramme des cas d'utilisations non exhaustif : 
+* Diagramme des cas d'utilisations non exhaustifs : 
 
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/use.png)
 
 ### Spécification des besoins
-* Zyfui doit être basé sur le système du [Shi-fu-mi](https://www.google.com) *Pierre-papier-ciseaux est un jeu effectué avec les mains et opposant un ou plusieurs joueurs.*
+* Zyfumi doit être basé sur le système du [Shi-fu-mi](https://www.google.com) *Pierre-papier-ciseaux est un jeu effectué avec les mains et opposant un ou plusieurs joueurs.*
 * Zyfumi est un jeu au tour par tour
 * Dans Zyfumi, le joueur joue contre une Intelligence Artifitielle
 * Dans Zyfumi, cette intelligence artifitielle donne la possibilité au joueur de développer des stratégies
