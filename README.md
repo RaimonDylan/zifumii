@@ -1,86 +1,46 @@
-# zifumii
-![](./photos/zyfumi.jpeg)
+# Livrable du projet Zyfumi
 
-## Réécrire et détailler le cahier des charges 
+### Introduction
+Zyfumi est un jeu vidéo en deux dimensions réalisé sur UnityEngine dont le bût est de jouer au Shi-fu-mu d'une façon différente.
+Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage combattant un autre personnage *Intelligence Artifitielle* et possède 3 variantes de sorts disponibles : 
+* L'épé
+* l'arc
+* le bouclier
 
-- Jeu basé sur le système du shi fu mi.
-- Jeu tour par tour
-- Le joueur joue contre une « IA » 
-- Cette IA donne la possibilité pour le joueur de développer des stratégies
-- L’IA gère la progression de la difficulté
-- Le jouer doit penser que le jeu est juste  (quel est le problème ?)
-- Fournir une interface attrayante s’appuyant sur une évaluation UX/UI auprès des étudiants du campus
-- Architecture permettant de mettre de nouvelles « IA »
-- Etudier le mode de promotion et de commercialisation à (championnat, réseaux sociaux)
+### Conception détaillée
+* Schématisation sous forme de maquettes de ce qui est attendu et la représentation faite pour Zyfumi :
 
-## Organisation
-
-- Raimon Dylan
-- Molinari David
-- Bigot Kevin
-- Durando Adrian
-
-## Planning 
-  - **Spécification**
-    - Le joueur crée son personage pour la partie, il commence niveau 1 avec les stats de base
-    - Le joueur à pour but de monter tout en haut de la tour de combat.
-    - Le joueur ainsi que les monstres ont des points de vie
-    - Un combat ce fait tour par tour
-    - Durant son tour le joueur choisit son action (Attaque, Bouclier, Saisir) Ce qui engendre une perte de point de vie soit le joueur soit le monstre
-    - Si le monstre meurt le joueur gagne de l'experience et passe à l'étage suivant
-    - Si le joueur monte de niveau il peut choisir une de ses statistiques pour la faire monter.
-    - Su le joueur perd contre le monstre, le joueur recommence à l'étage 0 MAIS EN GARDANT SON EXPERIENCE
-    
-  - **Conception générale**
-    - Moteur de jeux Unity
-    - Le jeux vidéo se déroule dans une tour de combat
-    - Jeux vidéo en 2D
-    - Combat style pokémon tour par tour
-    - Interface de création de personnage
-    
-  - **Conception détaillée**
-    - ![](./photos/conception.jpeg)
-    - PDF A REVOIR
-    - [PDF Conception](Zyfumi.pdf)
-    
-  - Règles de codage
-    - Qualité des commentaires
-    - Choisir des noms d'identificateurs lisibles ( exemple : HorizontalAlignment pour l'alignement horizontal )
-    - Priviléer la lisibilité des raisons de concision ( canScrollHorinzontally est meilleur que scrollableMeh )
-    - Pas de traits d'union ou de soulignements, pas de numéros dans les noms de variables
-    - Pas d'utilisation d'abréviations GetWidth et non pas get gw
-    - Utilisation de noms sémantiques getLength() et non pas getInt()
-    
-  - Plan de test
-    - Une version de démo sera distribuée à des utilisateurs qui feront un feedback sur l'expérience de jeu ressentie.
-    
-  - Code commenté
-    - yes
-  - Séance de relecture de code
-    - yes
-  - Tests avec oracles 
-    - Asset Unity testing tool 
-    
-    ![](http://ilkinulas.github.io/assets/testing_unity/editor_test_runner.png)
-    
-  - Post-Mortem
-    - yes
-  
-  --- 
-  
-
-## Diagram des "Cas d'utilisations"
-
-A revoir
- - ![](./photos/experience.jpg)
- 
- 
- ## Diagramme de classes
- ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/Diagramme%20de%20classe.PNG)
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/conception.jpeg)
 
 
+* Diagramme des cas d'utilisations non exhaustif : 
 
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/use.png)
 
+### Spécification des besoins
+* Zyfui doit être basé sur le système du [Shi-fu-mi](https://www.google.com) *Pierre-papier-ciseaux est un jeu effectué avec les mains et opposant un ou plusieurs joueurs.*
+* Zyfumi est un jeu au tour par tour
+* Dans Zyfumi, le joueur joue contre une Intelligence Artifitielle
+* Dans Zyfumi, cette intelligence artifitielle donne la possibilité au joueur de développer des stratégies
+* Dans Zyfumi, l'intelligence artifitielle gère la progession de la difficulté
+* Dans Zyfumi, le joueur doit penser que le jeu est juste 
+* Dans Zyfumi, le joueur doit trouver une interface attrayante
+* Dans Zyfumi, de multiples intelligences artifitielles peuvent être implémentées
 
+## Architecture logicielle 
 
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/Diagramme%20de%20classe.PNG)
 
+## Spécification du code, règles de codage
+* Les commentaires doivent être clairs et concis
+* Les identificateurs doivent être lisibles et licites pour des raisons de concisions, *par exemple, isLimited est mieux que limit* 
+* Pas de traits d'union ou de soulignement dans les variables
+* Pas de caractères spéciaux ni de numéros dans les noms de variables 
+* Pas d'utilisation d'abréviations non licites, *getWidth et non gw* 
+* Utilisation obligatoire de noms sémantiques : *getLength() et non getInt* pour récupérer une taille en int
+
+## Compte rendu d'éxecution de test et fiches d'anomalies
+* TODO
+
+## Suivi du déroulement de projet
+* TODO
