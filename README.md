@@ -60,6 +60,24 @@ Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage c
 
 
 
+Exemple de variables 
+```c#
+    private float experience = 0; // Expérience initialisée à 0 de base
+    private int niveau = 1; // Niveau initialisé à 1 de base
+    private int xpBase = 100; // Expérience de base d'un joueur
+    private int xpIncr = 50; // Icrémentation fixe
+    private Player myPlayer; // Le joueur lié à l'expérience 
+    private SimpleHealthBar expBar; // La bare de progression implémentée sur le scène
+
+    public float Experience { get => experience; set => experience = value; }
+    public int Niveau { get => niveau; set => niveau = value; }
+    public int XpBase { get => xpBase; set => xpBase = value; }
+    public int XpIncr { get => xpIncr; set => xpIncr = value; }
+    public Player MyPlayer { get => myPlayer; set => myPlayer = value; }
+    public SimpleHealthBar ExpBar { get => expBar; set => expBar = value; }
+
+```
+
 ## Spécification du code, règles de codage
 * Les commentaires doivent être clairs et concis
 * Les identificateurs doivent être lisibles et licites pour des raisons de concisions, *par exemple, isLimited est mieux que limit* 
