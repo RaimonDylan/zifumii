@@ -2,7 +2,7 @@
 
 
 
-![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/ZIFOUZIFOU.gif)
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/COMBATTANTS.gif)
 
 
 
