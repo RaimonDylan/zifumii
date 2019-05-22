@@ -30,6 +30,19 @@ Zyfumi se déroule dans une arène de combat, l'utilisateur joue un personnage c
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/conception.jpeg)
 
 
+
+* Le personnage gagne de l'expérience et à chaque palier ( niveau 1 a un palier de 100xp )  et chaque niveau fait gagner un point de compétence permettant au joueur de se spécialiser dans une des 3 variantes de sorts 
+
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/XP.gif)
+
+
+
+* Ce qui donne sous Machination
+
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/GAMEPALY.gif)
+
+
+
 * Diagramme des cas d'utilisations non exhaustifs : 
 
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/use.png)
