@@ -150,7 +150,7 @@ Avant ça manquait de dynamisme
 
 Après travail sur l'intégration d'animations, d'effets spéciaux et de petits bruits d'interaction
 
-![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SHIFU2.jpg)
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/AnimatedGif.gif)
 
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SUCCESS.gif)
 
