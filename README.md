@@ -3,22 +3,7 @@
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/AnimatedGif.gif)
 
 
-
-
-
-
-
-
 ----
-
-
-
-
-
-
-
-
-
 
 
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SHIFU1.jpg)
@@ -139,6 +124,23 @@ fonction resetLevel() =>
 
 Après correction => 
 ![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SUCCESS.gif)
+
+
+
+
+Exemple de fiche d'anomalie qui est remontée 
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/ANO.PNG)
+
+Avant ça manquait de dynamisme
+
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SHIFU2.jpg)
+
+Après travail sur l'intégration d'animations, d'effets spéciaux et de petits bruits d'interaction
+
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SHIFU2.jpg)
+
+![](https://raw.githubusercontent.com/RaimonDylan/zifumii/master/photos/SUCCESS.gif)
+
 
 ## Suivi du déroulement de projet
 * Taiga du projet 
