@@ -1,0 +1,31 @@
+<graph version="v4.3" name="" author="" interval="0.1" timeMode="asynchronous" distributionMode="fixed speed" speed="100" actions="1" dice="D6" skill="" strategy="" multiplayer="" width="1600" height="600" numberOfRuns="100" visibleRuns="25" colorCoding="0">
+  <connection type="Resource Connection" start="19" end="21" label="1" position="0.5" color="Blue" thickness="2" min="1.00" max="1.00"/>
+  <connection type="Resource Connection" start="19" end="22" label="1" position="0.5" color="Green" thickness="2" min="1.00" max="1.00"/>
+  <connection type="Resource Connection" start="10" end="11" label="" position="0.5" color="Purple" thickness="2"/>
+  <connection type="Resource Connection" start="11" end="12" label="0" position="0.5" color="Purple" thickness="2"/>
+  <connection type="State Connection" start="13" end="3" label="+1" position="0.5" color="Purple" thickness="2"/>
+  <node symbol="Source" x="236" y="181" color="Purple" caption="" thickness="2" captionPos="0.25" activationMode="onstart" pullMode="pull any" actions="1" resourceColor="Purple"/>
+  <connection type="Resource Connection" start="5" end="13" label="100" position="0.5" color="Purple" thickness="2"/>
+  <connection type="State Connection" start="15" end="19" label="+1" position="0.5" color="Purple" thickness="2"/>
+  <connection type="Resource Connection" start="12" end="15" label="" position="0.5" color="Purple" thickness="2"/>
+  <node symbol="TextLabel" x="977" y="175" color="Orange" caption="Gestion des competences"/>
+  <node symbol="Source" x="139" y="333" color="Purple" caption="VICTOIRE GAIN EXPERIENCE" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1" resourceColor="Purple"/>
+  <node symbol="Pool" x="279" y="334" color="Purple" caption="XP" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Purple" startingResources="0" capacity="-1" displayCapacity="0"/>
+  <node symbol="Converter" x="438" y="337" color="Purple" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull all" actions="1" resourceColor="Purple"/>
+  <node symbol="Pool" x="362" y="188" color="Purple" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Purple" startingResources="0" capacity="-1"/>
+  <connection type="State Connection" start="15" end="3" label="+30" position="0.5" color="Purple" thickness="2">
+    <point x="458" y="271"/>
+  </connection>
+  <node symbol="Pool" x="555" y="340" color="Purple" caption="LEVEL" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Purple" startingResources="1" capacity="-1" displayCapacity="0"/>
+  <connection type="State Connection" start="15" end="13" label="==1" position="0.5" color="Purple" thickness="2">
+    <point x="556" y="188"/>
+  </connection>
+  <connection type="Resource Connection" start="19" end="20" label="1" position="0.5" color="Red" thickness="2" min="1.00" max="1.00"/>
+  <node symbol="TextLabel" x="292" y="70" color="Orange" caption="Gestion experience"/>
+  <node symbol="Pool" x="810" y="335" color="Black" caption="POINTS DISPONIBLE" thickness="2" captionPos="0.25" activationMode="passive" pullMode="push any" actions="1" resourceColor="Black" startingResources="0" capacity="-1" displayCapacity="0"/>
+  <node symbol="Pool" x="1148" y="253" color="Red" caption="ATTAQUE" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="5" capacity="-1" displayCapacity="0"/>
+  <node symbol="Pool" x="1148" y="329" color="Blue" caption="BOUCLIER" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="5" capacity="-1" displayCapacity="0"/>
+  <node symbol="Pool" x="1150" y="404" color="Green" caption="SAISIR" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="5" capacity="-1" displayCapacity="0"/>
+  <node symbol="GroupBox" x="28" y="91" color="Orange" caption="" width="604.1441009521483" height="377.792724609375" captionPos="7"/>
+  <node symbol="GroupBox" x="719" y="200" color="Orange" caption="" width="495.5171875" height="268.792724609375" captionPos="7"/>
+</graph>

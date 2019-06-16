@@ -1,0 +1,83 @@
+<graph version="v4.3" name="" author="" interval="0.1" timeMode="turn-based" distributionMode="instantaneous" speed="100" actions="1" dice="D6" skill="" strategy="" multiplayer="" width="1600" height="800" numberOfRuns="100" visibleRuns="25" colorCoding="0">
+  <connection type="Resource Connection" start="8" end="6" label="==1" position="0.5" color="Black" thickness="2"/>
+  <node symbol="Converter" x="857" y="301" color="Red" caption="BOUCLIER" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <node symbol="Converter" x="858" y="396" color="Red" caption="SAISIR" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <node symbol="Converter" x="857" y="218" color="Red" caption="ATTAQUE" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <connection type="Resource Connection" start="5" end="71" label="" position="0.5" color="Red" thickness="2"/>
+  <node symbol="Delay" x="1000" y="132" color="Red" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" delayType="normal"/>
+  <node symbol="Converter" x="386" y="289" color="Black" caption="BOUCLIER" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <node symbol="Converter" x="387" y="384" color="Black" caption="SAISIR" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <node symbol="Pool" x="277" y="290" color="Black" caption="" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1"/>
+  <node symbol="Converter" x="397" y="472" color="Green" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <node symbol="Converter" x="471" y="472" color="Green" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <node symbol="Converter" x="723" y="485" color="Red" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <node symbol="Converter" x="797" y="485" color="Red" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <node symbol="Converter" x="867" y="486" color="Red" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <connection type="Resource Connection" start="20" end="9" label="31" position="0.5" color="Green" thickness="2"/>
+  <connection type="Resource Connection" start="20" end="10" label="23" position="0.5" color="Green" thickness="2"/>
+  <connection type="Resource Connection" start="20" end="21" label="12" position="0.5" color="Green" thickness="2"/>
+  <connection type="Resource Connection" start="20" end="11" label="32" position="0.5" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="20" end="12" label="21" position="0.5" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="20" end="13" label="13" position="0.5" color="Red" thickness="2"/>
+  <node symbol="Pool" x="632" y="304" color="Blue" caption="Resultat" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1" displayCapacity="0"/>
+  <node symbol="Converter" x="541" y="473" color="Green" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull all" actions="1" resourceColor="Black"/>
+  <connection type="Resource Connection" start="33" end="8" label="" position="0.5" color="Black" thickness="2">
+    <point x="52" y="296"/>
+  </connection>
+  <node symbol="Converter" x="390" y="222" color="Black" caption="ATTAQUE" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <connection type="State Connection" start="20" end="11" label="==32" position="0.5" color="Red" thickness="2"/>
+  <connection type="State Connection" start="20" end="12" label="==21" position="0.5" color="Red" thickness="2"/>
+  <connection type="State Connection" start="20" end="13" label="==13" position="0.5" color="Red" thickness="2"/>
+  <connection type="State Connection" start="20" end="21" label="==12" position="0.5" color="Green" thickness="2"/>
+  <connection type="State Connection" start="20" end="10" label="==23" position="0.5" color="Green" thickness="2"/>
+  <connection type="State Connection" start="20" end="9" label="==31" position="0.5" color="Green" thickness="2"/>
+  <connection type="State Connection" start="39" end="38" label=">200" position="0.5" color="Green" thickness="2"/>
+  <connection type="Resource Connection" start="39" end="38" label="&lt;200" position="0.5" color="Green" thickness="2" min="20.00" max="20.00"/>
+  <connection type="Resource Connection" start="33" end="5" label="" position="0.5" color="Black" thickness="2">
+    <point x="134" y="39"/>
+    <point x="1000" y="40"/>
+  </connection>
+  <node symbol="Source" x="62" y="36" color="Black" caption="TOUR SUIVANT" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <connection type="Resource Connection" start="20" end="54" label="33" position="0.5" color="Blue" thickness="2"/>
+  <node symbol="Source" x="1327" y="89" color="Orange" caption="MISE A JOUR" thickness="2" captionPos="0.25" activationMode="interactive" pullMode="pull any" actions="1" resourceColor="Black"/>
+  <node symbol="Drain" x="890" y="722" color="Red" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1"/>
+  <node symbol="Pool" x="680" y="720" color="Red" caption="VIE MONSTRE" thickness="2" captionPos="0.25" activationMode="passive" pullMode="push any" actions="1" resourceColor="Black" startingResources="200" capacity="-1" displayCapacity="0"/>
+  <node symbol="Drain" x="360" y="720" color="Green" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1"/>
+  <node symbol="Pool" x="571" y="720" color="Green" caption="VIE JOUEUR" thickness="2" captionPos="0.25" activationMode="passive" pullMode="push any" actions="1" resourceColor="Black" startingResources="200" capacity="-1" displayCapacity="0"/>
+  <node symbol="Pool" x="400" y="600" color="Green" caption="WIN JOUEUR" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1" displayCapacity="0"/>
+  <connection type="Resource Connection" start="23" end="20" label="1" position="0.17" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="6" end="20" label="2" position="0.18" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="7" end="20" label="3" position="0.16" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="3" end="20" label="10" position="0.15" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="1" end="20" label="20" position="0.21" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="2" end="20" label="30" position="0.24" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="20" end="53" label="22" position="0.5" color="Blue" thickness="2"/>
+  <connection type="State Connection" start="20" end="54" label="==33" position="0.66" color="Blue" thickness="2"/>
+  <connection type="State Connection" start="20" end="52" label="==11" position="-0.65" color="Blue" thickness="2"/>
+  <connection type="Resource Connection" start="20" end="52" label="11" position="-0.5" color="Blue" thickness="2"/>
+  <connection type="State Connection" start="20" end="53" label="==22" position="0.65" color="Blue" thickness="2"/>
+  <node symbol="Drain" x="544" y="159" color="Black" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1"/>
+  <node symbol="Drain" x="632" y="160" color="Black" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1"/>
+  <node symbol="Drain" x="720" y="161" color="Black" caption="" thickness="2" captionPos="0.25" activationMode="automatic" pullMode="pull any" actions="1"/>
+  <connection type="State Connection" start="40" end="58" label="-20" position="-0.91" color="Green" thickness="2"/>
+  <connection type="State Connection" start="59" end="30" label="-20" position="0.92" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="37" end="36" label="&lt;200" position="-0.5" color="Red" thickness="2" min="20.00" max="20.00"/>
+  <connection type="State Connection" start="37" end="36" label=">200" position="-0.5" color="Red" thickness="2"/>
+  <node symbol="Pool" x="880" y="600" color="Red" caption="WIN MONSTRE" thickness="2" captionPos="0.25" activationMode="passive" pullMode="pull any" actions="1" resourceColor="Black" startingResources="0" capacity="-1" displayCapacity="0"/>
+  <connection type="Resource Connection" start="9" end="40" label="1" position="0.28" color="Green" thickness="2"/>
+  <connection type="Resource Connection" start="10" end="40" label="1" position="0.37" color="Green" thickness="2"/>
+  <connection type="Resource Connection" start="11" end="59" label="1" position="0.17" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="12" end="59" label="1" position="0.19" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="13" end="59" label="1" position="0.23" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="21" end="40" label="1" position="0.37" color="Green" thickness="2"/>
+  <connection type="Resource Connection" start="71" end="1" label="33%" position="0.59" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="71" end="2" label="33%" position="0.43" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="71" end="3" label="33%" position="0.73" color="Red" thickness="2"/>
+  <connection type="Resource Connection" start="8" end="7" label="==1" position="0.7000000000000001" color="Black" thickness="2"/>
+  <connection type="Resource Connection" start="8" end="23" label="==1" position="-0.72" color="Black" thickness="2"/>
+  <node symbol="Gate" x="999" y="306" color="Red" caption="MONSTRE" thickness="2" captionPos="0" activationMode="passive" pullMode="pull any" actions="1" gateType="dice"/>
+  <node symbol="GroupBox" x="315" y="435" color="Orange" caption="JOUEUR" width="286.82792968750005" height="209.93754882812505" captionPos="7"/>
+  <node symbol="GroupBox" x="662" y="436" color="Orange" caption="MONSTRE" width="286.82792968750005" height="209.93754882812505" captionPos="9"/>
+  <node symbol="GroupBox" x="316" y="664" color="Orange" caption="GESTION DE LA VIE" width="631.7909912109374" height="104.17192382812505" captionPos="7"/>
+  <node symbol="GroupBox" x="510" y="98" color="Orange" caption="DRAW" width="250.14028320312502" height="102.70498046875" captionPos="8"/>
+</graph>
